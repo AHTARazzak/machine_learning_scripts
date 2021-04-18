@@ -13,6 +13,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 
+#This script used clinical data to predict stroke outcome.
+
 #Import data & cursory inspection of data
 strokedata_train=pd.read_csv('train_2v.csv')
 strokedata_test=pd.read_csv('test_2v.csv')
